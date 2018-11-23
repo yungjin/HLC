@@ -33,7 +33,7 @@ namespace WindowsFormsApp1
         private void Form1_Load(object sender, EventArgs e)
         {
             
-            Button_Load();
+            //Button_Load();
             Panel1_Load();
         }
 
@@ -57,16 +57,16 @@ namespace WindowsFormsApp1
             Controls.Add(panel1u);
         }
 
-        private void Button_Load()
-        {
-            ArrayList arrayList = new ArrayList();
+        //private void Button_Load()
+        //{
+        //    ArrayList arrayList = new ArrayList();
 
-            arrayList.Add(new BtnSet(this, 110, 90, 1, 0, Button1_Click));
+        //    arrayList.Add(new BtnSet(this, 110, 90, 1, 0, Button1_Click));
 
-            for (int i = 0; i < arrayList.Count; i++)
-            {
+        //    for (int i = 0; i < arrayList.Count; i++)
+        //    {
                 
-            }
-        }
+        //    }
+        //}
     }
 }
