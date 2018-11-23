@@ -46,14 +46,91 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BTNclass.cs" />
+    <Compile Include="BtnSet.cs" />
+    <Compile Include="CHKBOXclass.cs" />
+    <Compile Include="COMBOBOXclass.cs" />
+    <Compile Include="CREATE_CTLclass.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form1ad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1ad.Designer.cs">
+      <DependentUpon>Form1ad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1us.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1us.Designer.cs">
+      <DependentUpon>Form1us.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2ad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2ad.Designer.cs">
+      <DependentUpon>Form2ad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2us.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2us.Designer.cs">
+      <DependentUpon>Form2us.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3ad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3ad.Designer.cs">
+      <DependentUpon>Form3ad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3us.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3us.Designer.cs">
+      <DependentUpon>Form3us.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4ad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4ad.Designer.cs">
+      <DependentUpon>Form4ad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4us.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4us.Designer.cs">
+      <DependentUpon>Form4us.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LBclass.cs" />
+    <Compile Include="LISTVIEWclass.cs" />
+    <Compile Include="MAIN_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAIN_Form.Designer.cs" />
+    <Compile Include="PANELclass.cs" />
+    <Compile Include="PICTUREBOXclass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RADIOclass.cs" />
+    <Compile Include="Sample_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sample_Form.Designer.cs" />
+    <Compile Include="TABCTLclass.cs" />
+    <Compile Include="TABPAGEclass.cs" />
+    <Compile Include="Test2_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test2_Form.Designer.cs" />
+    <Compile Include="TEST_From1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TEST_From1.Designer.cs" />
+    <Compile Include="TXTBOXclass.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
